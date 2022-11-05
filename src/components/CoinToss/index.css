@@ -1,0 +1,152 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+}
+.content-container {
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.heading {
+  color: #a35200;
+  font-family: Roboto;
+  font-size: 40px;
+  margin: 10px;
+}
+.description {
+  color: #334155;
+  font-weight: bold;
+  margin: 10px;
+}
+.img-container {
+  margin: 10px;
+}
+.img {
+  width: 100px;
+  padding: 10px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-family: Roboto;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+}
+.countOfToss {
+  width: 50%;
+  display: flex;
+  color: #475569;
+  font-weight: bold;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 300px) {
+  .content-container {
+    width: 90%;
+    height: 65%;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .img {
+    width: 80px;
+    padding: 10px;
+  }
+  .countOfToss {
+    margin: 20px;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .content-container {
+    width: 70%;
+    height: 70%;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .img {
+    width: 100px;
+    padding: 10px;
+  }
+  .countOfToss {
+    margin: 20px;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    width: 70%;
+    height: 70%;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .img {
+    width: 150px;
+    padding: 10px;
+  }
+  .countOfToss {
+    margin: 20px;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .content-container {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 10px;
+  }
+  .heading {
+    font-size: 35px;
+  }
+  .img-container {
+    margin: 5px;
+  }
+  .img {
+    width: 160px;
+  }
+  .countOfToss {
+    margin: 10px;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .content-container {
+    width: 70%;
+    height: 70%;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .img-container {
+    margin: 0px;
+  }
+  .img {
+    width: 180px;
+  }
+  .countOfToss {
+    margin: 10px;
+    width: 50%;
+  }
+}
